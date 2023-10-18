@@ -1,3 +1,5 @@
+package First;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -43,7 +45,7 @@ public class HW_class {
         wd.findElement(By.name("password")).sendKeys("secret_sauce");
         wd.findElement(By.id("login-button")).click();
         System.out.println("quantity = " + wd.findElements(By.xpath("//*[@class='inventory_item']")).size());
-        wd.findElement(By.cssSelector())
+
 
 
 
